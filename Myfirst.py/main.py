@@ -1,14 +1,14 @@
 
 
-# def talk(sentence):
-#     def say(word):
-#         print (word)
+def talk(sentence):
+    def say(word):
+        print (word)
 
-#     mots = sentence.split(', ')
-#     for dires in mots:
-#         say(dires)
+    mots = sentence.split(', ')
+    for dires in mots:
+        say(dires)
 
-# print (talk("Je suis pret a affronter les situations de la vie."))
+print (talk("Je suis pret a affronter les situations de la vie."))
 
 
 class Accessoires:
